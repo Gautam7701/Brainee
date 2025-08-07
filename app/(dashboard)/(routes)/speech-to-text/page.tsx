@@ -13,11 +13,6 @@ import Empty from "@/components/Empty";
 import Loader from "@/components/Loader";
 import * as z from "zod";
 
-// const formSchema = z.object({
-//   audio: z.any().refine((file) => file instanceof File, {
-//     message: "Audio file is required",
-//   }),
-// });
 const formSchema = z.object({
   audio: z
     .instanceof(File, { message: "Audio file is required" }),
