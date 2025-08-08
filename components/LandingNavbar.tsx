@@ -43,7 +43,7 @@ export const LandingNavbar = () => {
         <Link href={isSignedIn ? "/dashboard" : "/sign-in"}>
           <Button className="bg-[#4169e1] hover:bg-white hover:text-[#2563EB] border border-[#2563EB] text-white rounded-full px-5 py-2 text-sm sm:text-base font-semibold flex items-center gap-2 transition duration-300 shadow-md">
             Get Started
-            <ArrowRight size={18} />
+            {/* <ArrowRight size={18} /> */}
           </Button>
         </Link>
       </div>

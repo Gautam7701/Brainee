@@ -38,7 +38,7 @@ const LandingHero = () => {
                 </h2>
 
                 <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-                    Empower your creativity with <strong className="text-black">Brainee</strong>. Whether it’s code, content, or imagination — create it all 10x faster using AI.
+                    Empower your creativity with <strong className="text-[#2563eb] text-2xl">Brainee</strong>. Whether it’s code, content, or imagination — create it all 10x faster using AI.
                 </p>
 
 
