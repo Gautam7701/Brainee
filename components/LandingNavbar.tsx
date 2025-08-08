@@ -36,7 +36,7 @@ export const LandingNavbar = () => {
             variant="outline"
             className="rounded-full border-[#2563eb] text-[#2563eb] hover:bg-[#4169e1] text-sm sm:text-base px-5 py-2 font-medium transition"
           >
-            Sign Up
+            Log in
           </Button>
         </Link>
 

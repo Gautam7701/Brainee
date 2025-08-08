@@ -1,5 +1,3 @@
-
-
 import { type Metadata } from 'next'
 import {
   ClerkProvider,
@@ -21,6 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Brainee',
   description: 'AI-powered learning platform',
+  icons:"/logo.png"
 }
 
 export default function RootLayout({
